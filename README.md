@@ -15,14 +15,22 @@
 
 ##Demo
 
-###検索
-<img src="https://github.com/masapixyon/OrderManagement_VarCommandPrompt/blob/master/gif/Search.gif" width="500">
+####受注検索
+顧客名のキーワードでの検索
 
-###登録
-<img src="https://github.com/masapixyon/OrderManagement_VarCommandPrompt/blob/master/gif/Registration.gif" width="500">
+検索キーワードに引っかかる全ての顧客を表示
+また、受注に関する詳細情報を表示
 
-###削除
-<img src="https://github.com/masapixyon/OrderManagement_VarCommandPrompt/blob/master/gif/Deletion.gif" width="500">
+表示される要素は、受注NO、受注受付日、顧客名(顧客コード)、担当者名(担当者コード)、受注商品一覧(商品コード、商品名、数量)
+<img src="https://github.com/masapixyon/OrderManagement_VarCommandPrompt/blob/master/gif/Search.gif" width="700">
+
+####受注登録
+登録情報の要素は登録年月日、顧客コード、担当者コード、商品コード、数量
+<img src="https://github.com/masapixyon/OrderManagement_VarCommandPrompt/blob/master/gif/Registration.gif" width="700">
+
+####受注削除
+受注No.の入力にて削除
+<img src="https://github.com/masapixyon/OrderManagement_VarCommandPrompt/blob/master/gif/Deletion.gif" width="700">
 
 
 ##Install
@@ -30,4 +38,4 @@
 
 　2.データベースは_orderdb_で、これをMysqlのDataファイルにダウンロード
 
-  3.本プログラムをダウンロードして頂き、コマンドプロンプトで実行
+　3.本プログラムをダウンロードして頂き、コマンドプロンプトで実行
